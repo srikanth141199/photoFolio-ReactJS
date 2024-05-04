@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #f8f9fa; /* Light gray background color */
+    padding: 10px 0; /* Padding at the top and bottom */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Light shadow */
+}
+
+.navbar-brand {
+    color: #007bff; /* Blue color for the brand */
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%;
+}
