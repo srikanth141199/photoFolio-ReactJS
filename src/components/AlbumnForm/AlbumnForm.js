@@ -20,7 +20,7 @@ export default function AlbumnForm(){
     const handleAlbumCreation = async (evt) =>{
         evt.preventDefault();
 
-        const docRef = await addDoc(collection(db, "Albumn"), {
+        await addDoc(collection(db, "Albumn"), {
             AlbumnName : nameRef.current.value,
             ImageList : []           
         });

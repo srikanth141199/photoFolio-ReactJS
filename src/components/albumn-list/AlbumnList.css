@@ -1,0 +1,23 @@
+.AlbumnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.AlbumnCard {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: center; /* Center items horizontally */
+    width: 80%; /* 80% width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.AlbumnCard > * {
+    flex: 0 0 30%; /* Each card should take up 30% of the container width */
+    margin: 10px; /* Some margin between cards */
+}
+
+@media (max-width: 768px) {
+    .AlbumnCard > * {
+        flex: 0 0 100%; /* Full width for each card on smaller screens */
+    }
+}
