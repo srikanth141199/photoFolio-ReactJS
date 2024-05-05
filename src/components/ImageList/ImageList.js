@@ -48,7 +48,7 @@ export default function ImageList({AlbumnPage ,setAlbumnPage}){
             const data=doc.data().ImageList;      
             setImageList(data);
         });
-    },[]);
+    });
 
     // deleting an image from list
     async function handleImageDelete(image){
