@@ -45,7 +45,7 @@ export default function AlbumnList(){
                     ))}
                 </div>
 
-            </div>:<ImageList/>}
+            </div>:<ImageList setAlbumnPage = {setAlbumnPage}  AlbumnPage = {AlbumnPage} />}
         </div>
     )
 }

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./Navbar.css"
-import AlbumnImage from "../../assets/tıme.png"
+import AlbumnImage from "../../assets/cam.png"
 
 export default function Navbar(){
     return(

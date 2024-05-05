@@ -4,7 +4,7 @@ export default function AlbumnCard({albumn, AlbumnPage, setAlbumnPage}){
     console.log("Albumn : ", albumn);
 
     const handleAlbumnClick = (evt) => {
-        setAlbumnPage({albumnId : albumn.AlbumnName , open : false})
+        setAlbumnPage({albumnId : albumn.id , open : false})
     }
     return(
         <div className="AlbumnCardContainer">
